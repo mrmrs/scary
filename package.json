@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^0.10.0",
+    "@zeit/next-mdx": "^1.1.0",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.13.1",
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "remark-emoji": "^2.0.1",
+    "remark-images": "^0.8.1",
+    "styled-system": "^2.2.9"
+  },
+  "devDependencies": {
+    "@mdx-js/mdx": "^0.10.0"
+  }
+}
