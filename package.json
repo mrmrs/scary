@@ -7,18 +7,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mdx-js/loader": "^0.15.5",
+    "@mdx-js/loader": "^0.16.0",
     "@zeit/next-mdx": "^1.2.0",
+    "emotion": "^9.2.12",
     "glamor": "^2.20.40",
     "glamorous": "^4.13.1",
     "next": "^7.0.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-emotion": "^9.2.12",
     "remark-emoji": "^2.0.2",
-    "remark-images": "^0.8.1",
+    "remark-images": "^0.16.0",
     "styled-system": "^3.1.11"
   },
   "devDependencies": {
-    "@mdx-js/mdx": "^0.15.5"
+    "@mdx-js/mdx": "^0.16.0"
   }
 }
