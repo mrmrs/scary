@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, width, fontSize, fontWeight, textAlign, color, borders, borderColor, borderWidth } from 'styled-system'
 
 const Th = glamorous.td(space, width, fontSize, fontWeight, textAlign, color, borders, borderColor, borderWidth, {
