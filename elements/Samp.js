@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, width, fontSize, color, borders, borderRadius } from 'styled-system'
 
 const Samp = glamorous.samp(space, width, fontSize, color, borders, borderRadius, {
