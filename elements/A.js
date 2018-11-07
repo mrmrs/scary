@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { 
   space, width, display, 
   flex, alignItems, justifyContent, 
