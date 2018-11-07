@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, fontSize, fontWeight, color } from 'styled-system'
 
 const Italic = glamorous.I(space, fontSize, fontWeight, color, {
