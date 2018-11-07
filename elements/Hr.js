@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, width, height, color, borders, borderColor, borderWidth } from 'styled-system'
 
-const Hr = glamorous.hr(space, width, height, color, borders, borderColor, borderWidth, {
+const Hr = styled('hr')(space, width, height, color, borders, borderColor, borderWidth, {
   boxSizing: 'content-box', 
   overflow: 'visible'
 })
