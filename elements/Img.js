@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { 
   space, display, width, maxWidth, 
   color, borders, borderColor, borderWidth, borderRadius 
