@@ -5,7 +5,7 @@ import {
   color 
 } from 'styled-system'
 
-const B = glamorous.b(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color,  {
+const B = styled('b')(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color,  {
 
 })
 
