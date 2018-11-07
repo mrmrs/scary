@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, display, width, fontSize, fontWeight, lineHeight, textAlign,  color } from 'styled-system'
 
-const P = glamorous.p(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color, {
+const P = styled('p')(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color, {
   boxSizing: 'border-box',
   maxWidth: '34em'
 })
