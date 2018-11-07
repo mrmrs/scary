@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, width, fontSize, fontWeight, lineHeight, color } from 'styled-system'
 
-const Sup = glamorous.sup(space, fontSize, fontWeight, lineHeight, color, {
+const Sup = styled('sup')(space, fontSize, fontWeight, lineHeight, color, {
 
 })
 
