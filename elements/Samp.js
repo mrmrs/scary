@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, width, fontSize, color, borders, borderRadius } from 'styled-system'
 
-const Samp = glamorous.samp(space, width, fontSize, color, borders, borderRadius, {
+const Samp = styled('samp')(space, width, fontSize, color, borders, borderRadius, {
   boxSizing: 'border-box',
   fontFamily: 'monospace, monospace',
 })
