@@ -4,7 +4,7 @@ import {
   color, borders, borderColor, borderWidth, borderRadius 
 } from 'styled-system'
 
-const Img = glamorous.img(space, display, width, maxWidth, color, borders, borderColor, borderWidth, borderRadius, {
+const Img = styled('img')(space, display, width, maxWidth, color, borders, borderColor, borderWidth, borderRadius, {
   borderStyle: 'none'
 })
 
