@@ -5,7 +5,7 @@ const verticalAlign = props => ({
   verticalAlign: props.verticalAlign? props.verticalAlign : 'middle'
 })
 
-const Td = glamorous.td(space, width, fontSize, fontWeight, textAlign, color, borders, verticalAlign, {
+const Td = styled('td')(space, width, fontSize, fontWeight, textAlign, color, borders, verticalAlign, {
 
 })
 
