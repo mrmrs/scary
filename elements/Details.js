@@ -5,7 +5,7 @@ import {
   color 
 } from 'styled-system'
 
-const Details = glamorous.details(space, display, width, fontSize, fontWeight, textAlign, color, {
+const Details = styled('details')(space, display, width, fontSize, fontWeight, textAlign, color, {
 
 })
 
