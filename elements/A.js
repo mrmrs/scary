@@ -7,7 +7,7 @@ import {
   hover, focus, active 
 } from 'styled-system'
 
-const A = glamorous.a(
+const A = styled('a')(
   space, width, display, 
   fontSize, fontWeight, textAlign, lineHeight, 
   color, borders, borderColor, borderWidth, borderRadius, 
