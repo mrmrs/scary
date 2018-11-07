@@ -3,10 +3,9 @@ import {
   space, width, display, alignItems, justifyContent,
   fontSize, fontWeight, lineHeight, 
   color, borders, borderColor, borderWidth, borderRadius, 
-  hover, active, focus 
 } from 'styled-system'
 
-const Button = styled('button')(space, width, display, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders, borderColor, borderWidth, borderRadius, hover, active, focus, { 
+const Button = styled('button')(space, width, display, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders, borderColor, borderWidth, borderRadius, { 
   boxSizing: 'border-box', 
   overflow: 'visible',
   textTransform: 'none',

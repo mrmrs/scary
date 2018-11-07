@@ -3,10 +3,9 @@ import {
   space, 
   fontSize, fontWeight, lineHeight, 
   color, 
-  hover, active, focus 
 } from 'styled-system'
 
-const Abbr = styled('abbr')(space, fontSize, fontWeight, color, hover, active, focus, {
+const Abbr = styled('abbr')(space, fontSize, fontWeight, color, {
   '[title]': {
     borderBottom: 'none',
     textDecoration: 'underline dotted',
