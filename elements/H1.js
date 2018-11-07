@@ -5,7 +5,7 @@ import {
   color, borders, borderColor, borderWidth
 } from 'styled-system'
 
-const H1 = glamorous.h1(space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, textAlign, color, borders, borderColor, borderWidth, {
+const H1 = styled('h1')(space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, textAlign, color, borders, borderColor, borderWidth, {
   boxSizing: 'border-box'
 })
 
