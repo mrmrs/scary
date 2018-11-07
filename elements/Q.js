@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, width, fontSize, fontWeight, lineHeight, color } from 'styled-system'
 
-const Q = glamorous.q(space, width, fontSize, fontWeight, lineHeight, color, {
+const Q = styled('q')(space, width, fontSize, fontWeight, lineHeight, color, {
 
 })
 
