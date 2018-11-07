@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, fontSize, fontWeight, color } from 'styled-system'
 
-const Italic = glamorous.I(space, fontSize, fontWeight, color, {
+const Italic = styled('I')(space, fontSize, fontWeight, color, {
   
 })
 
