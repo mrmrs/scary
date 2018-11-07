@@ -11,7 +11,6 @@
     "@zeit/next-mdx": "^1.2.0",
     "emotion": "^9.2.12",
     "glamor": "^2.20.40",
-    "glamorous": "^4.13.1",
     "next": "^7.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
