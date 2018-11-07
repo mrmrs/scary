@@ -5,7 +5,7 @@ import {
   color, borders, borderColor, borderWidth 
 } from 'styled-system'
 
-const Dd = glamorous.dd(space, display, width, fontSize, fontWeight, color, borders, borderColor, borderWidth, {
+const Dd = styled('dd')(space, display, width, fontSize, fontWeight, color, borders, borderColor, borderWidth, {
 
 })
 
