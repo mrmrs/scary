@@ -5,7 +5,7 @@ import {
   color, borders, borderColor, borderWidth, borderRadius 
 } from 'styled-system'
 
-const Article = glamorous.div(space, width, maxWidth, display, alignItems, justifyContent, fontSize, textAlign, lineHeight, color, borders, borderColor, borderWidth, borderRadius, {
+const Article = styled('div')(space, width, maxWidth, display, alignItems, justifyContent, fontSize, textAlign, lineHeight, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 
