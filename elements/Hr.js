@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, width, height, color, borders, borderColor, borderWidth } from 'styled-system'
 
 const Hr = glamorous.hr(space, width, height, color, borders, borderColor, borderWidth, {
