@@ -5,7 +5,7 @@ import {
   color, borders, borderWidth, borderColor, borderRadius 
 } from 'styled-system'
 
-const Aside = glamorous.aside(space, width, display, fontSize, lineHeight, textAlign, color, borders, borderWidth, borderColor, borderRadius, {
+const Aside = styled('aside')(space, width, display, fontSize, lineHeight, textAlign, color, borders, borderWidth, borderColor, borderRadius, {
   boxSizing: 'border-box'
 })
 
