@@ -2,10 +2,10 @@ import styled from 'react-emotion'
 import { 
   space, display, width, 
   fontSize, fontWeight, textAlign, 
-  color, borders, borderColor, borderWidth, borderRadius 
+  color, borders, borderColor, borderRadius 
 } from 'styled-system'
 
-const Header = styled('header')(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Header = styled('header')(space, display, width, fontSize, color, borders, borderColor, borderRadius, {
   boxSizing: 'border-box'
 })
 

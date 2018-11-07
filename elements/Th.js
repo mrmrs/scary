@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
-import { space, width, fontSize, fontWeight, textAlign, color, borders, borderColor, borderWidth } from 'styled-system'
+import { space, width, fontSize, fontWeight, textAlign, color, borders, borderColor,  } from 'styled-system'
 
-const Th = styled('td')(space, width, fontSize, fontWeight, textAlign, color, borders, borderColor, borderWidth, {
+const Th = styled('td')(space, width, fontSize, fontWeight, textAlign, color, borders, borderColor, {
 
 })
 

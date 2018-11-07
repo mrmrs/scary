@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
-import { space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
+import { space, width, display, fontSize, color, borders, borderColor, borderRadius } from 'styled-system'
 
-const Section = styled('div')(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Section = styled('div')(space, width, display, fontSize, color, borders, borderColor, borderRadius, {
   boxSizing: 'border-box'
 })
 

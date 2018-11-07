@@ -10,6 +10,7 @@
     "@mdx-js/loader": "^0.16.0",
     "@zeit/next-mdx": "^1.2.0",
     "emotion": "^9.2.12",
+    "emotion-theming": "^9.2.9",
     "glamor": "^2.20.40",
     "next": "^7.0.2",
     "react": "^16.6.0",

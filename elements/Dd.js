@@ -2,10 +2,10 @@ import styled from 'react-emotion'
 import { 
   space, display, width, 
   fontSize, fontWeight, 
-  color, borders, borderColor, borderWidth 
+  color, borders, borderColor, 
 } from 'styled-system'
 
-const Dd = styled('dd')(space, display, width, fontSize, fontWeight, color, borders, borderColor, borderWidth, {
+const Dd = styled('dd')(space, display, width, fontSize, fontWeight, color, borders, borderColor, {
 
 })
 

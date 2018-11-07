@@ -2,10 +2,10 @@ import styled from 'react-emotion'
 import { 
   space, width, display, alignItems, justifyContent,
   fontSize, fontWeight, lineHeight, 
-  color, borders, borderColor, borderWidth, borderRadius, 
+  color, borders, borderColor, borderRadius, 
 } from 'styled-system'
 
-const Button = styled('button')(space, width, display, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders, borderColor, borderWidth, borderRadius, { 
+const Button = styled('button')(space, width, display, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders, borderColor, borderRadius, { 
   boxSizing: 'border-box', 
   overflow: 'visible',
   textTransform: 'none',

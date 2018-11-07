@@ -1,9 +1,17 @@
 import React from 'react'
-import Document from '../md/markdown.md'
 
-const H1 = props => <h1 style={{ color: 'tomato' }} {...props} />
-const InlineCode = props => <code id="codes" style={{ color: 'purple' }} {...props} />
-const Code = props => <code id="codes" style={{ fontWeight: 600 }} {...props} />
-const Pre = props => <pre id="codes" style={{ color: 'red' }} {...props} />
+import Div from '../elements/Div'
+import H1 from '../elements/H1'
+import P from '../elements/P'
+import A from '../elements/A'
 
-export default () => <Document components={{ h1: H1, pre: Pre, code: Code, inlineCode: InlineCode }} />
+
+import theme from '../theme'
+
+const Home = props => (
+    <Div>
+      <H1>Title</H1>
+    </Div>
+)
+
+export default Home

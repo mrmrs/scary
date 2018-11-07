@@ -2,10 +2,10 @@ import styled from 'react-emotion'
 import { 
   space, display, width, alignItems, justifyContent, 
   fontSize, fontWeight, lineHeight, textAlign,
-  color, borders, borderColor, borderWidth
+  color, borders, borderColor, 
 } from 'styled-system'
 
-const H1 = styled('h1')(space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, textAlign, color, borders, borderColor, borderWidth, {
+const H1 = styled('h1')(space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, textAlign, color, borders, borderColor, {
   boxSizing: 'border-box'
 })
 

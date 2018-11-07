@@ -2,9 +2,9 @@ import styled from 'react-emotion'
 import { 
   space, width, display, 
   fontSize, 
-  color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
+  color, borders, borderColor, borderRadius } from 'styled-system'
 
-const Code = styled('code')(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Code = styled('code')(space, width, display, fontSize, color, borders, borderColor, borderRadius, {
   boxSizing: 'border-box'
 })
 

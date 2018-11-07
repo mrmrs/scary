@@ -1,10 +1,10 @@
 import styled from 'react-emotion'
 import { 
   space, display, width, maxWidth, 
-  color, borders, borderColor, borderWidth, borderRadius 
+  color, borders, borderColor, borderRadius 
 } from 'styled-system'
 
-const Img = styled('img')(space, display, width, maxWidth, color, borders, borderColor, borderWidth, borderRadius, {
+const Img = styled('img')(space, display, width, maxWidth, color, borders, borderColor, borderRadius, {
   borderStyle: 'none'
 })
 
