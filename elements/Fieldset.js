@@ -5,7 +5,7 @@ import {
   color, borders, borderColor, borderWidth, borderRadius 
 } from 'styled-system'
 
-const Fieldset = glamorous.fieldset(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Fieldset = styled('fieldset')(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 
