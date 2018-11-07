@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
 const Section = glamorous.div(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
