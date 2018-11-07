@@ -5,7 +5,7 @@ import {
   color 
 } from 'styled-system'
 
-const Cite = glamorous.cite(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color, {
+const Cite = styled('cite')(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color, {
 
 })
 
