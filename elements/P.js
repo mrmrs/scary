@@ -1,4 +1,4 @@
-import glamorous from 'glamorous'
+import styled from 'react-emotion'
 import { space, display, width, fontSize, fontWeight, lineHeight, textAlign,  color } from 'styled-system'
 
 const P = glamorous.p(space, display, width, fontSize, fontWeight, lineHeight, textAlign, color, {
