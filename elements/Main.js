@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Main = glamorous.div(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Main = styled('div')(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 
