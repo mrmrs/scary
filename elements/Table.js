@@ -8,7 +8,7 @@ const layout = props => ({
   tableLayout: props.layout? props.layout : 'default'
 })
 
-const Table = glamorous.table(space, width, fontSize, color, layout, {
+const Table = styled('table')(space, width, fontSize, color, layout, {
   borderCollapse: 'collapse',
   cellSpacing: 0,
   cellPadding: 0
