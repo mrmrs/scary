@@ -4,7 +4,7 @@ import {
   fontSize, 
   color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Code = glamorous.code(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Code = styled('code')(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 
