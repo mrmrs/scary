@@ -1,7 +1,7 @@
 import styled from 'react-emotion'
 import { color } from 'styled-system'
 
-const Path = glamorous.path(color, {
+const Path = styled('path')(color, {
   fill: 'currentColor'
 })
 
