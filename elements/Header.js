@@ -5,7 +5,7 @@ import {
   color, borders, borderColor, borderWidth, borderRadius 
 } from 'styled-system'
 
-const Header = glamorous.header(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
+const Header = styled('header')(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 
