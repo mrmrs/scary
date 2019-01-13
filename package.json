@@ -11,14 +11,17 @@
     "@zeit/next-mdx": "^1.2.0",
     "emotion": "^10.0.0",
     "emotion-theming": "^10.0.0",
+    "fs-extra": "^7.0.1",
     "glamor": "^2.20.40",
     "next": "^7.0.2",
+    "path": "^0.12.7",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-emotion": "^10.0.0",
     "remark-emoji": "^2.0.2",
     "remark-images": "^0.16.1",
-    "styled-system": "^3.1.11"
+    "styled-system": "^3.1.11",
+    "webpack": "^4.28.4"
   },
   "devDependencies": {
     "@mdx-js/mdx": "^0.16.5"
